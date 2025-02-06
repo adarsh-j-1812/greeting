@@ -1,11 +1,16 @@
 body{
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     width: 97vw;
     height: 100vh;
     flex-direction: row;
-    background-color: rgb(53, 53, 53);
+    /* background-color: rgb(53, 53, 53); */
+    background: linear-gradient(
+        to top right, 
+        #ff9a9e, #fad0c4, #fbc2eb, #a6c1ee, 
+        #89f7fe, #66a6ff, #5ee7df, #b8cbb8, #e0c3fc
+    );
     overflow: hidden;
 }
 
@@ -62,6 +67,9 @@ body{
 #imag-3{
     background-color: pink;
 }
+#imag-4{
+    background-color: plum;
+}
 
 .buttons{
     width: 97vw;
@@ -88,4 +96,9 @@ body{
 .btn:hover{
     scale: 1.1;
     background-color: rgb(26, 26, 26);
+}
+
+
+.gif{
+    height: 30vh;
 }
