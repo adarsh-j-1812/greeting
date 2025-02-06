@@ -1,0 +1,91 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 97vw;
+    height: 100vh;
+    flex-direction: row;
+    background-color: rgb(53, 53, 53);
+    overflow: hidden;
+}
+
+.container{
+    position: relative;
+    top: 10vh;
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 97vw;
+    height: 50vh;
+    flex-direction: row;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 97vw;
+    height: 50vh;
+    flex-direction: row;
+}
+
+.imag{
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 45vw;
+    height: 30vh;
+    position: absolute; 
+    margin: 5px;
+    padding: 10px;
+    transition: all 0.6s cubic-bezier(0.66,-0.56, 0, 0.96); 
+    font-family: cascadia code;
+}
+
+#imag-0{
+    background-color: red;
+    color: whitesmoke;
+}
+#imag-1{
+    background-color: blue;
+    color: whitesmoke;
+}
+#imag-2{
+    background-color: green;
+    color: whitesmoke;
+}
+#imag-3{
+    background-color: pink;
+}
+
+.buttons{
+    width: 97vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.btn{
+    background-color: black;
+    color: whitesmoke;
+    margin: 10px;
+    width: 100px;
+    height: 75px;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid whitesmoke;
+    transition: all 0.2s linear;
+}
+
+.btn:hover{
+    scale: 1.1;
+    background-color: rgb(26, 26, 26);
+}
